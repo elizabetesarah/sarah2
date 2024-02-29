@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqqfelyashwae"]
+
+[ext_resource type="PackedScene" uid="uid://dgb4s06hhdelb" path="res://scenes/character_body_2d.tscn" id="1_v6grv"]
+[ext_resource type="Texture2D" uid="uid://dd78eddsd3osn" path="res://Material rescue/wallpaper.png" id="2_6amvw"]
+
+[node name="Main" type="Node2D"]
+position = Vector2(19, 11)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-109, -268)
+texture = ExtResource("2_6amvw")
+
+[node name="nave" parent="." instance=ExtResource("1_v6grv")]
